@@ -1,0 +1,96 @@
+/* fonts started */
+@font-face {
+    font-family: 'inter';
+    src: url(../Assets/fonts/Inter/static/Inter_18pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url(../Assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'kyiv';
+    src: url(../Assets/fonts/Dmitry-Rastvortsev-KyivType/Dmitry\ Rastvortsev\ -\ KyivType\ Sans\ Heavy2.otf);
+}
+
+
+.inter {
+    font-family: 'inter';
+}
+
+.montserrat {
+    font-family: 'montserrat';
+}
+
+.kyiv {
+    font-family: 'kiyv';
+}
+
+/* fonts ended */
+
+/* bg-color started */
+
+:root {
+
+    --bg-brown: #1e0c06;
+    --bg-black: rgb(33, 31, 32);
+    --bg-white: hsl(0, 0%, 96%);
+    --bg-blue: rgb(114, 139, 173);
+    --bg-gray: rgb(173, 172, 173);
+
+}
+
+.bg-blue {
+    background-color: var(--bg-blue);
+}
+
+.bg-gray {
+    background-color: var(--bg-gray);
+}
+
+.bg-brown {
+    background-color: var(--bg-brown);
+}
+
+.bg-white {
+    background-color: var(--bg-white);
+}
+
+.bg-brown {
+    background-color: var(--bg-black);
+}
+
+/* bg-color ended */
+
+
+
+/* color started */
+:root {
+
+    --color-brown: #1e0c06;
+    --color-black: rgb(33, 31, 32);
+    --color-white: hsl(0, 0%, 96%);
+    --color-blue: rgb(114, 139, 173);
+    --color-gray: rgb(173, 172, 173);
+}
+
+.color-blue {
+    color: var(--color-blue);
+}
+
+.color-gray {
+    color: var(--color-gray);
+}
+
+.color-brown {
+    color: var(--color-brown);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+.color-brown {
+    color: var(--color-black);
+}
