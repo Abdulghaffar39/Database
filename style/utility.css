@@ -34,15 +34,25 @@
 :root {
 
     --bg-brown: #1e0c06;
-    --bg-black: rgb(33, 31, 32);
+    --bg-black: #000000;
     --bg-white: hsl(0, 0%, 96%);
-    --bg-blue: rgb(114, 139, 173);
+    --bg-green: #C1C242;
     --bg-gray: rgb(173, 172, 173);
+    --bg-yellow: #CCCD21;
+    --bg-light-yellow: rgb(240, 240, 187);
 
 }
 
-.bg-blue {
-    background-color: var(--bg-blue);
+.bg-light-yellow {
+    background-color: var(--bg-light-yellow);
+}
+
+.bg-yellow {
+    background-color: var(--bg-yellow);
+}
+
+.bg-green {
+    background-color: var(--bg-green);
 }
 
 .bg-gray {
@@ -69,14 +79,23 @@
 :root {
 
     --color-brown: #1e0c06;
-    --color-black: rgb(33, 31, 32);
-    --color-white: hsl(0, 0%, 96%);
-    --color-blue: rgb(114, 139, 173);
-    --color-gray: rgb(173, 172, 173);
+    --color-black: #000000;
+    --color-white: hsl(0, 0%, 96%); 
+    --color-green: #C1C242;
+    --color-yellow: #CCCD21;
+    --color-light-yellow: rgb(240, 240, 187);
 }
 
-.color-blue {
-    color: var(--color-blue);
+.color-light-yellow {
+    color: var(--color-light-yellow);
+}
+
+.color-yellow {
+    color: var(--color-yellow);
+}
+
+.color-green {
+    color: var(--color-green);
 }
 
 .color-gray {

@@ -3,23 +3,365 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 
-main {
+
+/* container_1 started */
+.container_1 {
 
     width: 100%;
-    height: 832px;
+    height: 769px;
+    transition: all 0.8s;
+    overflow: hidden;
 }
 
-main .parent_1 {
+/* container_1 ended */
+
+
+/* parent started */
+.container_1 .parent_1 {
 
     width: 60%;
-    height: 832px;
+    height: 100%;
+    padding: 27px 92px;
 }
 
-main .parent_2 {
+/* parent ended */
 
+
+/* child started */
+.container_1 .parent_1 .child_1 {
+
+    width: 100%;
+    height: 100%;
+}
+
+/* child ended */
+
+
+/* grand child started */
+.container_1 .parent_1 .child_1 .grand_child_1 {
+
+    width: 100%;
+    margin-bottom: 43px;
+}
+
+
+.container_1 .parent_1 .child_1 .grand_child_2 p {
+
+    font-size: 48px;
+    color: var(--color-green);
+}
+
+
+.container_1 .parent_1 .child_1 .grand_child_3 {
+
+    margin-bottom: 17px;
+}
+
+.container_1 .parent_1 .child_1 .grand_child_3 img {
+
+    width: 46.5px;
+    height: 46.5px;
+}
+
+
+.container_1 .parent_1 .child_1 .grand_child_4 p {
+
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+.container_1 .parent_1 .child_1 .grand_child_5 .input_container div input {
+
+    width: 426px;
+    height: 72px;
+    font-size: 20px;
+    padding: 10px 65px;
+    border-radius: 12px;
+    color: var(--color-black);
+    border-color: var(--color-black);
+    background-color: var(--color-light-yellow);
+}
+
+
+.container_1 .parent_1 .child_1 .grand_child_5 input::placeholder {
+
+    color: var(--color-black);
+}
+
+
+.container_1 .parent_1 .child_1 .grand_child_5 .input_container .icon_1 i {
+
+    position: relative;
+    top: 53px;
+    left: 30px;
+    font-size: 25px;
+}
+
+
+.container_1 .parent_1 .child_1 .grand_child_5 {
+
+    margin-top: 0px;
+}
+
+
+.container_1 .parent_1 .child_1 .grand_child_5 p {
+
+    margin-top: 25px;
+}
+
+
+.container_1 .parent_1 .child_1 .grand_child_5 p a {
+
+    font-size: 20px;
+    color: var(--color-black);
+}
+
+
+.container_1 .parent_1 .child_1 .grand_child_5 button {
+
+    width: 274px;
+    height: 72px;
+    font-size: 36px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: var(--color-black);
+    background-color: var(--bg-green);
+    margin-top: 15px;
+}
+
+/* grand child ended */
+
+
+/* parent 2 started */
+.container_1 .parent_2 {
+
+    background-image: url(../Assets/Images/welcome.png);
     width: 40%;
-    height: 832px;
+    height: 100%;
+}
+
+
+.container_1 .parent_2 .child_1 {
+
+    height: 100%;
 
 }
+
+
+.container_1 .parent_2 .child_1 .grand_child_1 h1 {
+
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--color-white);
+
+}
+
+
+.container_1 .parent_2 .child_1 .grand_child_2 h1 {
+
+    font-size: 40px;
+    color: var(--color-white);
+
+}
+
+
+.container_1 .parent_2 .child_1 .grand_child_2 button {
+
+    width: 271px;
+    height: 72px;
+    border-radius: 8px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 63px;
+}
+
+/* parent 2 ended */
+
+
+/* ======================================================================================================== */
+
+
+
+/* container_2 started */
+.container_2 {
+
+    width: 100%;
+    height: 769px;
+    /* display: none !important; */
+
+    /* position: absolute !important;
+    top: 0; */
+    
+}
+
+/* container_2 ended */
+
+
+/* parent started */
+.container_2 .parent_1 {
+
+    width: 60%;
+    height: 100%;
+    padding: 27px 92px;
+}
+
+/* parent ended */
+
+
+/* child started */
+.container_2 .parent_1 .child_1 {
+
+    width: 100%;
+    height: 100%;
+}
+
+/* child ended */
+
+
+/* grand child started */
+.container_2 .parent_1 .child_1 .grand_child_1 {
+
+    width: 100%;
+    margin-bottom: 43px;
+}
+
+
+.container_2 .parent_1 .child_1 .grand_child_2 p {
+
+    font-size: 48px;
+    color: var(--color-green);
+}
+
+
+.container_2 .parent_1 .child_1 .grand_child_3 {
+
+    margin-bottom: 17px;
+}
+
+.container_2 .parent_1 .child_1 .grand_child_3 img {
+
+    width: 46.5px;
+    height: 46.5px;
+}
+
+
+.container_2 .parent_1 .child_1 .grand_child_4 p {
+
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+.container_2 .parent_1 .child_1 .grand_child_5 .input_container div input {
+
+    width: 426px;
+    height: 72px;
+    font-size: 20px;
+    padding: 10px 65px;
+    border-radius: 12px;
+    color: var(--color-black);
+    border-color: var(--color-black);
+    background-color: var(--color-light-yellow);
+}
+
+
+.container_2 .parent_1 .child_1 .grand_child_5 input::placeholder {
+
+    color: var(--color-black);
+}
+
+
+.container_2 .parent_1 .child_1 .grand_child_5 .input_container .icon_1 i {
+
+    position: relative;
+    top: 53px;
+    left: 30px;
+    font-size: 25px;
+}
+
+
+.container_2 .parent_1 .child_1 .grand_child_5 {
+
+    margin-top: 0px;
+}
+
+
+.container_2 .parent_1 .child_1 .grand_child_5 p {
+
+    margin-top: 25px;
+}
+
+
+.container_2 .parent_1 .child_1 .grand_child_5 p a {
+
+    font-size: 20px;
+    color: var(--color-black);
+}
+
+
+.container_2 .parent_1 .child_1 .grand_child_5 button {
+
+    width: 274px;
+    height: 72px;
+    font-size: 36px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: var(--color-black);
+    background-color: var(--bg-green);
+    margin-top: 15px;
+}
+
+/* grand child ended */
+
+
+/* parent 2 started */
+.container_2 .parent_2 {
+
+    background-image: url(../Assets/Images/welcome.png);
+    width: 40%;
+    height: 100%;
+}
+
+
+.container_2 .parent_2 .child_1 {
+
+    height: 100%;
+
+}
+
+
+.container_2 .parent_2 .child_1 .grand_child_1 h1 {
+
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--color-white);
+
+}
+
+
+.container_2 .parent_2 .child_1 .grand_child_2 h1 {
+
+    font-size: 40px;
+    color: var(--color-white);
+
+}
+
+
+.container_2 .parent_2 .child_1 .grand_child_2 button {
+
+    width: 271px;
+    height: 72px;
+    border-radius: 8px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 63px;
+}
+
+/* parent 2 ended */
+
+
+/* ======================================================================================================== */
