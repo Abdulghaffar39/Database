@@ -13,6 +13,96 @@
 
 <body>
 
+    <div class="container_2 d-flex flex-row justify-content-center align-items-center" id="box_2">
+
+
+        <div class=" parent_2" id="C2_parent_1">
+
+            <div class=" child_1 d-flex flex-column justify-content-between align-items-center">
+
+                <div></div>
+
+                <div class="grand_child_1">
+
+                    <h1>Start New Journey!</h1>
+
+                </div>
+
+                <div class="grand_child_2 d-flex flex-column align-items-center justify-content-center">
+
+                    <h1>Already have an account?</h1>
+                    <button onclick="sign_in()">Sign In</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="parent_1" id="C2_parent_2">
+
+            <div class="child_1 d-flex flex-column justify-content-start align-items-center">
+
+                <div class=" grand_child_1">
+                    <img src="./Assets/Images/icon.png" alt="">
+                </div>
+
+                <div class=" grand_child_2 text-center ">
+                    <p><b>Create Account</b></p>
+                </div>
+
+                <div class=" grand_child_3">
+                    <img src="./Assets/Images/facebook.png" alt="facebook">
+                    <img src="./Assets/Images/Google.png" alt="Google">
+                    <img src="./Assets/Images/Linkedin.png" alt="Linkedin">
+                </div>
+
+                <div class="grand_child_4 ">
+                    <p>or use ur email account</p>
+                </div>
+
+
+                <div>
+
+                    <form class="grand_child_5 d-flex flex-column justify-content-center align-items-center"
+                        onsubmit="signup_value(event)">
+
+                        <div class="input_container">
+
+                            <div class="icon_1"><i class="fa-solid fa-user"></i></div>
+                            <div><input type="name" placeholder="Name" required="required" id="C2_Name"></div>
+
+                        </div>
+
+                        <div class="input_container">
+
+                            <div class="icon_1"><i class="fa-solid fa-envelope"></i></div>
+                            <div><input type="email" placeholder="Email" id="C2_Email"></div>
+
+                        </div>
+
+                        <div class="input_container">
+
+                            <div class="icon_1"><i class="fa-solid fa-lock"></i></div>
+                            <div><input type="password" placeholder="Password" required="required" minlength="4" id="C2_Password"></div>
+
+                        </div>
+
+                        <p><a href="#" onclick="forgot()">Forgot your password?</a></p>
+
+                        <input type="submit" class="submit" value="Sign Up">
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
     <div class="container_1 d-flex flex-row justify-content-center align-items-center" id="box_1">
 
         <div class="parent_1" id="C1_parent_1">
@@ -37,25 +127,35 @@
                     <p>or use ur email account</p>
                 </div>
 
-                <div class="grand_child_5 d-flex flex-column justify-content-center align-items-center">
+                <div>
 
-                    <div class="input_container">
 
-                        <div class="icon_1"><i class="fa-solid fa-envelope"></i></div>
-                        <div><input type="email" placeholder="Email" required="required"></div>
+                    <form class="grand_child_5 d-flex flex-column justify-content-center align-items-center"
+                        onsubmit="signin_value(event)">
 
-                    </div>
 
-                    <div class="input_container">
+                        <div class="input_container">
 
-                        <div class="icon_1"><i class="fa-solid fa-lock"></i></div>
-                        <div><input type="password" placeholder="Password"  required="required"></div>
+                            <div class="icon_1"><i class="fa-solid fa-envelope"></i></div>
+                            <div><input type="email" placeholder="Email" required="required" id="C1_Email"></div>
 
-                    </div>
+                        </div>
 
-                    <p><a href="#">Forgot your password?</a></p>
+                        <div class="input_container">
 
-                    <button>Sign In</button>
+                            <div class="icon_1"><i class="fa-solid fa-lock"></i></div>
+                            <div><input type="password" placeholder="Password" required="required" minlength="4"
+                                    id="C1_Password">
+                            </div>
+
+                        </div>
+
+                        <p><a href="#" onclick="forgot()">Forgot your password?</a></p>
+
+                        <input type="submit" class="submit" value="Sign In">
+
+
+                    </form>
 
                 </div>
 
@@ -79,89 +179,6 @@
 
                     <h1>Don’t have an account?</h1>
                     <button onclick="sign_up()">Sign Up</button>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="container_2 d-flex flex-row justify-content-center align-items-center" id="box_2">
-
-        
-        <div class=" parent_2" id="C2_parent_1">
-            
-            <div class=" child_1 d-flex flex-column justify-content-between align-items-center">
-                
-                <div></div>
-                
-                <div class="grand_child_1">
-                    
-                    <h1>Start New Journey!</h1>
-                    
-                </div>
-                
-                <div class="grand_child_2 d-flex flex-column align-items-center justify-content-center">
-                    
-                    <h1>Already have an account?</h1>
-                    <button onclick="sign_in()">Sign In</button>
-                    
-                </div>
-                
-            </div>
-            
-        </div>
-        
-        <div class="parent_1" id="C2_parent_2">
-
-            <div class="child_1 d-flex flex-column justify-content-start align-items-center">
-
-                <div class=" grand_child_1">
-                    <img src="./Assets/Images/icon.png" alt="">
-                </div>
-
-                <div class=" grand_child_2 text-center ">
-                    <p><b>Create Account</b></p>
-                </div>
-
-                <div class=" grand_child_3">
-                    <img src="./Assets/Images/facebook.png" alt="facebook">
-                    <img src="./Assets/Images/Google.png" alt="Google">
-                    <img src="./Assets/Images/Linkedin.png" alt="Linkedin">
-                </div>
-
-                <div class="grand_child_4 ">
-                    <p>or use ur email account</p>
-                </div>
-
-                <div class="grand_child_5 d-flex flex-column justify-content-center align-items-center">
-
-                    <div class="input_container">
-
-                        <div class="icon_1"><i class="fa-solid fa-user"></i></div>
-                        <div><input type="name" placeholder="Name"></div>
-
-                    </div>
-
-                    <div class="input_container">
-
-                        <div class="icon_1"><i class="fa-solid fa-envelope"></i></div>
-                        <div><input type="email" placeholder="Email"></div>
-
-                    </div>
-
-                    <div class="input_container">
-
-                        <div class="icon_1"><i class="fa-solid fa-lock"></i></div>
-                        <div><input type="password" placeholder="Password"></div>
-
-                    </div>
-
-                    <p><a href="#">Forgot your password?</a></p>
-
-                    <button>Sign Up</button>
 
                 </div>
 

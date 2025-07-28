@@ -124,7 +124,7 @@
 }
 
 
-.container_1 .parent_1 .child_1 .grand_child_5 button {
+.container_1 .parent_1 .child_1 .grand_child_5 .submit {
 
     width: 274px;
     height: 72px;
@@ -138,7 +138,7 @@
 }
 
 
-.container_1 .parent_1 .child_1 .grand_child_5 button:hover {
+.container_1 .parent_1 .child_1 .grand_child_5 .submit:hover {
 
     font-size: 35px;
     color: var(--color-black);
@@ -313,26 +313,26 @@
 }
 
 
-.container_2 .parent_1 .child_1 .grand_child_5 {
+.container_2 .parent_1 .child_1 div .grand_child_5 {
 
     margin-top: 0px;
 }
 
 
-.container_2 .parent_1 .child_1 .grand_child_5 p {
+.container_2 .parent_1 .child_1 div .grand_child_5 p {
 
     margin-top: 18px;
 }
 
 
-.container_2 .parent_1 .child_1 .grand_child_5 p a {
+.container_2 .parent_1 .child_1 div .grand_child_5 p a {
 
     font-size: 20px;
     color: var(--color-black);
 }
 
 
-.container_2 .parent_1 .child_1 .grand_child_5 button {
+.container_2 .parent_1 .child_1 div .grand_child_5 .submit {
 
     width: 274px;
     height: 72px;
@@ -345,7 +345,7 @@
 }
     
 
-.container_2 .parent_1 .child_1 .grand_child_5 button:hover {
+.container_2 .parent_1 .child_1 div .grand_child_5 .submit:hover {
 
     font-size: 35px;
     color: var(--color-black);
